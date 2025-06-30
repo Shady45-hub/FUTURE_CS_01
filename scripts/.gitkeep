@@ -1,1 +1,37 @@
+To set up DVWA in kali linux:
+// Start the database
+sudo service apache 2 start
+sudo service mysql start
 
+//clone DVW into a Web Server Directory:
+cd /var/www/html/
+sudo git clone https://github.com/digininja/DVWA.git
+
+//Set persmissions:
+cd DVWA
+sudo chmod -R 755 .
+//Edit config file
+sudo cp config/config.inc.php.dist config/config.inc.php
+sudo nano config/config.inc.php
+// In the config file:
+$_DVWA['db_user'] ='root';
+$_DVWA['db_password'] ='';
+
+//Create the database:
+sudo mysql -u root
+CREATE DATABASE dvwa;
+exit
+
+
+To scan using OWASP ZAP 
+to start owasp zap in a terminal:
+owasp-zap
+
+
+Using NIKTO 
+nikto -h http://localhost/DVWA
+
+//Using BURP SUITE
+burpsuite
+//input
+' OR 1=1 --

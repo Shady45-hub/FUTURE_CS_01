@@ -1,7 +1,7 @@
 # FUTURE_CS_01
 Security testing on a sample web application to identify  vulnerabilities like SQL injection, XSS, and authentication flaws
-About the Task
-In this hands-on cybersecurity internship project, I’ll perform vulnerability assessment of a real-world or open-source web application. The goal is to identify security flaws using ethical hacking tools and OWASP standards. This type of project simulates real client work, especially for startups, SaaS companies, or e-commerce platforms that need to secure their websites.
+about the Task.
+In this hands-on cybersecurity internship project, I have performed vulnerability assessment of a real-world or open-source web application. The goal is to identify security flaws using ethical hacking tools and OWASP standards. This type of project simulates real client work, especially for startups, SaaS companies, or e-commerce platforms that need to secure their websites.
 
 Setting up and exploring a test web app (like DVWA)
 Use scanning tools like OWASP ZAP, Burp Suite, or Nikto
